@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body {
+    margin: 0;
+    background-color: #0d1117;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.info {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 200%;
+    padding: 10%;
+    background-color: #161b22;
+    width: 25%;
+    border-bottom-right-radius: 100px;
+}
+
+.infodw {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 100%;
+    padding: 10%;
+    background-color: #161b22;
+    text-align: center;
+}
+
+.sysreq {
+    color: gray;
+    font-size: 50%;
+}
+.dlbutton {
+    background-color: #0066cc;
+    padding: 7px;
+    color: azure;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.wikibutton {
+    background-color: #2ea043;
+    padding: 7px;
+    color: azure;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-left: 4px;
+}
+
+.imgr {
+    float: right;
+    margin-top: -25%;
+    margin-right: 10%;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+.navbar {
+    background-color: #007acc;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    height: 25px;
+    width: 100%;
+}
+.navbar a {
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
