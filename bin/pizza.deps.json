@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "pizza/1.0.0": {
+        "dependencies": {
+          "DarkUI": "2.0.2",
+          "FCTB": "2.16.24"
+        },
+        "runtime": {
+          "pizza.dll": {}
+        }
+      },
+      "DarkUI/2.0.2": {
+        "runtime": {
+          "lib/DarkUI.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
+        }
+      },
+      "FCTB/2.16.24": {
+        "runtime": {
+          "lib/FastColoredTextBox.dll": {
+            "assemblyVersion": "2.16.24.0",
+            "fileVersion": "2.16.24.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "pizza/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DarkUI/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ap27CZYnE0ShZZl2SWk95kowf1n72PjEZhuMW4WWGR/ETw8SBOU/ZHSbKOMON4D9sIiQQc/A8j1JRaBEEb3+LQ==",
+      "path": "darkui/2.0.2",
+      "hashPath": "darkui.2.0.2.nupkg.sha512"
+    },
+    "FCTB/2.16.24": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7E+vfTh4kV4Cz9hkHehgbmJQh03EdaMWyjY3T9YA4snqI7Bi11zlAvJgyO5HNdkL+Znzas8yyYE9vuF+izxWQw==",
+      "path": "fctb/2.16.24",
+      "hashPath": "fctb.2.16.24.nupkg.sha512"
+    }
+  }
+}
